@@ -37,6 +37,11 @@
     .bg-dark{
         background-image: url("/assets/bg.png");
     }
+    .text-center{
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
 
     /* header styles */
 
@@ -99,4 +104,43 @@
 .banner-description{
     font-weight: 400;
     font-size: 1.25rem;
+}
+
+/* section related styles */
+.section-title{
+    font-weight: 700;
+    font-size: 3.25rem;
+}
+
+/* item related styles */
+.item-container{
+    display: flex;
+    gap: 28.29px;
+    margin: 80px 146px;
+}
+.item-1{
+    max-width: 344px;
+    max-height: 477px;
+    padding: 30px;
+    background-color: rgba(222, 245, 255, 1);
+    border-radius: 18.86px; 
+    border: none;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.item-2{
+    max-width: 344px;
+    max-height: 477px;
+    padding: 30px;
+    background-color: #FFF4DC;
+    border-radius: 18.86px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05);
+}
+.item-3{
+    max-width: 344px;
+    max-height: 477px;
+    padding: 30px;
+    background-color: #F2E8FF;
+    border-radius: 18.86px;
+    border: none;
 }
