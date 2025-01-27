@@ -118,9 +118,21 @@
     gap: 28.29px;
     margin: 80px 146px;
 }
+.item-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #202020;
+}
+.item-description{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #808080;
+}
 .item-1{
     max-width: 344px;
     max-height: 477px;
+    justify-content: center;
+    text-align: center;
     padding: 30px;
     background-color: rgba(222, 245, 255, 1);
     border-radius: 18.86px; 
@@ -130,6 +142,8 @@
 .item-2{
     max-width: 344px;
     max-height: 477px;
+    justify-content: center;
+    text-align: center;
     padding: 30px;
     background-color: #FFF4DC;
     border-radius: 18.86px;
@@ -139,8 +153,30 @@
 .item-3{
     max-width: 344px;
     max-height: 477px;
+    justify-content: center;
+    text-align: center;
     padding: 30px;
     background-color: #F2E8FF;
     border-radius: 18.86px;
     border: none;
 }
+.btn-col-1{
+    color: #64C8FF;
+    border: none;
+    background-color: none;
+}
+.btn-col-2{
+    color: #F0AA00;
+    border: none;
+}
+.btn-col-3{
+    color: #8700FF;
+    border: none;
+}
+
+/* team related styles */
+
+
+
+
+
