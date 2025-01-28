@@ -185,6 +185,7 @@
     padding: 15px;
     border-radius: 47.93px;
     border: none;
+    translate: 20px -30px;
 }
 .teams{
     margin: 0 140px;
@@ -196,22 +197,40 @@
     font-weight: 700;
     font-size: 1.25rem;
     color: #000000;
+    padding-top: 33px;
 }
 .team-description{
     font-weight: 500;
     font-size: 1rem;
     color: #666666;
+    padding-top: 48px;
 }
 .team-img-container{
+    max-width: 601px;
+    height: 622px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 19px;
+    gap: 0 10px;
 }
 .stroy-1{
-    background-color: #FFFFFF;
     max-width: 540px;
+    height: 622px;
+    background-color: #FFFFFF;
+}
+.picture{
     border-radius: 16px;
     border: none;
+}
+.story-end-btn{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px 47px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    border: none;
+    margin-top: 80px;
+    margin-left: 500px;
 }
 
 
