@@ -109,7 +109,7 @@
 /* section related styles */
 .section-title{
     font-weight: 700;
-    font-size: 3.25rem;
+    font-size: 3rem;
 }
 
 /* item related styles */
@@ -175,6 +175,44 @@
 }
 
 /* team related styles */
+.section-title-2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.story-btn-1{
+    background-color: #3CD8E8;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 47.93px;
+    border: none;
+}
+.teams{
+    margin: 0 140px;
+}
+.total-teams{
+    gap: 20px;
+}
+.team-title{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #000000;
+}
+.team-description{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #666666;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+.stroy-1{
+    background-color: #FFFFFF;
+    max-width: 540px;
+    border-radius: 16px;
+    border: none;
+}
 
 
 
