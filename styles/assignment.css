@@ -231,6 +231,15 @@
     border: none;
     margin-top: 80px;
     margin-left: 500px;
+    margin-bottom: 60px;
+}
+
+/* footer related styles */
+.bg-2{
+    background-color: #01ACFD;
+}
+.footer{
+    margin: 123px 228px 173px 140px;
 }
 
 
